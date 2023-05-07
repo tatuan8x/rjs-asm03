@@ -1,0 +1,55 @@
+.registerContainer {
+  align-items: center;
+  background-image: url(C:\Users\tuan\Desktop\rjs-asm03\src\img\banner1.jpg);
+  background-position: 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+.registerCard {
+  align-items: center;
+  display: flex;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  justify-content: center;
+  max-width: 50rem;
+  min-width: 500px;
+}
+.registerForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  padding: 2rem;
+  width: 30rem;
+}
+.registerForm h3 {
+  height: 4rem;
+}
+.registerForm span {
+  color: #c94343;
+}
+.registerForm button {
+  align-items: center;
+  background-color: #383838;
+  color: #fff;
+  display: flex;
+  font-weight: 300;
+  height: 70px;
+  justify-content: center;
+  /* text-decoration: none;
+  transition: all 0.2s ease-in-out; */
+  width: 300px;
+  margin: 30px 0px 30px 0px;
+}
+.registerForm button:hover {
+  color: aqua;
+}
+.registerForm input {
+  width: 300px;
+  height: 70px;
+}

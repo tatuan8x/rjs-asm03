@@ -1,0 +1,38 @@
+.bannerContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+.bannerContainer img {
+  height: 800px;
+  width: 100%;
+  max-width: 1600px;
+  background-size: cover;
+  background-position: center center;
+}
+.bannerDesc {
+  position: absolute;
+  top: 50%;
+  left: 160px;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  margin-left: 30px;
+  max-width: 500px;
+}
+.bannerDesc a {
+  align-items: center;
+  background-color: #383838;
+  color: #fff;
+  display: flex;
+  font-weight: 300;
+  height: 80px;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  width: 300px;
+}
+.bannerDesc a:hover {
+  color: aqua;
+}

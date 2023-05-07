@@ -1,0 +1,34 @@
+.listProductsTitle {
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 100%;
+}
+.listProductsRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 1600px;
+  width: 100%;
+}
+.listProductsContentWrapper {
+  margin-bottom: 20px;
+  width: calc(25% - 20px);
+}
+.listProductsContentWrapper h3 {
+  margin: 5px 0;
+  text-align: center;
+}
+.listProductsContentWrapper p {
+  margin: 5px 0;
+  text-align: center;
+}
+.listProductsContentWrapper img {
+  height: auto;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100%;
+}
+.listProductsContentWrapper img:hover {
+  filter: brightness(1.05);
+}

@@ -1,0 +1,54 @@
+.loginContainer {
+  align-items: center;
+  background-image: url(C:\Users\tuan\Desktop\rjs-asm03\src\img\banner1.jpg);
+  background-position: 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+.loginCard {
+  align-items: center;
+  display: flex;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  justify-content: center;
+  max-width: 50rem;
+  min-width: 500px;
+}
+.loginForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  padding: 2rem;
+  width: 30rem;
+}
+.loginForm h3 {
+  height: 4rem;
+}
+.loginForm span {
+  color: #c94343;
+}
+.loginForm button:hover {
+  color: aqua;
+}
+.loginForm button {
+  align-items: center;
+  background-color: #383838;
+  color: #fff;
+  display: flex;
+  font-weight: 300;
+  height: 70px;
+  justify-content: center;
+
+  width: 300px;
+  margin: 30px 0px 30px 0px;
+}
+.loginForm input {
+  width: 300px;
+  height: 70px;
+}

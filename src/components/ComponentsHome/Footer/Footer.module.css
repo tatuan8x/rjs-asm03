@@ -1,0 +1,33 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  color: #fff;
+  width: 100%;
+}
+.footerWrapper {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  width: 100%;
+}
+.footerList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+  margin: 30px 0;
+  padding-left: 0;
+}
+.footerList a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+.footerCol {
+  padding: 60px 0;
+}
+.footerCol h3 {
+  font-size: 1.5rem;
+}

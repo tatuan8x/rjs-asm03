@@ -1,0 +1,100 @@
+.checkOutContainer {
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 100%;
+}
+.checkOutBanner {
+  align-items: center;
+  background-color: #f6f9f6;
+  display: flex;
+  height: 200px;
+  justify-content: space-between;
+  margin: 20px auto;
+  padding: 30px;
+}
+.checkOutBanner span:first-child {
+  font-size: 3rem;
+}
+.checkOutBanner span:last-child {
+  color: hsla(0, 0%, 45%, 0.5);
+  font-size: 2rem;
+  font-weight: 500;
+}
+.checkOutContentContainer {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.checkOutBillContainer {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 60%;
+}
+.checkOutBillForm {
+  width: 100%;
+}
+.checkOutInnerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.checkOutInnerForm h1 {
+  color: #343437;
+  font-weight: 500;
+}
+.checkOutInnerForm button:hover {
+  color: aqua;
+}
+.checkOutInnerForm button {
+  background-color: #111;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 300;
+  outline: none;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+  width: 30%;
+}
+.checkOutInputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.checkOutInputWrapper label {
+  color: #b5b9b9;
+  font-size: 1.5rem;
+}
+.checkOutInputWrapper input {
+  padding: 15px;
+  width: 100%;
+}
+.checkOutCartTotalContainer {
+  align-self: center;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px 30px;
+  width: 40%;
+}
+.checkOutCartTotal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.checkOutCartItem {
+  font-size: 1rem;
+  width: 60%;
+}
+.checkOutCartTotalPrice {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.checkOutLinks {
+  font-size: 1.5rem;
+  transition: all 0.4s ease-in-out;
+}

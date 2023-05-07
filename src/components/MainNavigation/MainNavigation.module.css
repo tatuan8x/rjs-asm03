@@ -1,0 +1,51 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  max-width: 1600px;
+  font-size: 1.25rem;
+}
+.navMainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navMainList {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.navCartList {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+.navCartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shopName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navShop {
+  color: #deb458;
+  font-weight: 500;
+}
+.navCartList li {
+  display: flex;
+  align-items: center;
+}
+.navCartList li span {
+  margin-left: 5px;
+}
+.navCart svg {
+  margin-right: 5px;
+}
