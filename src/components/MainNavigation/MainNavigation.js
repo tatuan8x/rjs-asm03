@@ -12,6 +12,11 @@ function MainNavigation() {
   // lấy state tổng sp trong giỏ của user
   const totalQuantity = useSelector((state) => state.cart.totalQuantity);
 
+  // thêm hàm này để khi f5 sẽ ko bị mất thông tin giỏ hàng của user
+  useEffect(() => {
+    dispatch(cartActions.LOAD_CART());
+  }, [dispatch]);
+  
   // nút logout
   const logoutHandler = () => {
     dispatch(authActions.ON_LOGOUT());
